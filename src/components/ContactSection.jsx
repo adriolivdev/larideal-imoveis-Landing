@@ -31,6 +31,7 @@ export default function ContactSection() {
               src="/icone-contato.svg"
               alt="Ícone contato"
               className="w-10 h-10 mb-3"
+              loading="lazy"
             />
             <h2 className="text-3xl font-bold text-[#1A237E] mb-3 flex items-center gap-2">
               📩 Fale Conosco
@@ -102,8 +103,8 @@ export default function ContactSection() {
           </div>
         </div>
 
-        {/* Carrossel de imagens com seta indicando movimento */}
-        <div className="relative bg-[#F5F5F5] rounded-xl shadow-lg h-full flex flex-col justify-center">
+        {/* Carrossel de imagens com lazy loading */}
+        <div className="relative bg-[#F5F5F5] rounded-xl shadow-lg h-[300px] md:h-[400px] flex flex-col justify-center">
           <Carousel
             autoPlay
             infiniteLoop
@@ -116,13 +117,28 @@ export default function ContactSection() {
             className="h-full"
           >
             <div className="h-full">
-              <img src="/familia-image.jpg" alt="Cliente satisfeito 1" className="w-full h-full object-cover" />
+              <img
+                src="/familia-image.jpg"
+                alt="Cliente satisfeito 1"
+                className="w-full h-full object-cover"
+                loading="lazy"
+              />
             </div>
             <div className="h-full">
-              <img src="/familia3.jpg" alt="Cliente satisfeito 2" className="w-full h-full object-cover" />
+              <img
+                src="/familia3.jpg"
+                alt="Cliente satisfeito 2"
+                className="w-full h-full object-cover"
+                loading="lazy"
+              />
             </div>
             <div className="h-full">
-              <img src="/familia4.jpg" alt="Cliente satisfeito 3" className="w-full h-full object-cover" />
+              <img
+                src="/familia4.jpg"
+                alt="Cliente satisfeito 3"
+                className="w-full h-full object-cover"
+                loading="lazy"
+              />
             </div>
           </Carousel>
         </div>

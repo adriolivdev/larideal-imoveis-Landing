@@ -16,7 +16,6 @@ import BotaoWhatsapp from './components/BotaoWhatsapp';
  * ContactSection e Footer.
  */
 export default function App() {
-  // Dados simulados de propriedades (substituir por API real quando disponível)
   const allProperties = [
     {
       id: 1,
@@ -47,12 +46,8 @@ export default function App() {
     },
   ];
 
-  // Estado para armazenar propriedades filtradas
   const [filteredProperties, setFilteredProperties] = useState(allProperties);
 
-  /**
-   * Filtra propriedades conforme os filtros do SearchBar.
-   */
   const handleSearch = ({ tipo, localizacao, preco }) => {
     let results = allProperties;
 
@@ -81,34 +76,22 @@ export default function App() {
 
   return (
     <>
-      {/* Navegação fixa no topo */}
       <Navbar />
 
-      {/* Conteúdo principal com padding-top para compensar a Navbar fixa */}
-      <main className="pt-16 font-sans text-[#333333]">
-        {/* Seção principal */}
+      <main className="pt-16 font-sans text-[#333333] overflow-x-hidden">
         <HeroSection />
 
-        {/* Barra de busca sobreposta */}
         <div className="max-w-6xl mx-auto px-4 -mt-20 relative z-20">
           <SearchBar onSearch={handleSearch} />
         </div>
 
-        {/* Propriedades em destaque */}
         <FeaturedProperties properties={filteredProperties} />
-
-        {/* Seção Sobre Nós */}
         <AboutPreview />
-
-        {/* Depoimentos de clientes */}
         <TestimonialsPreview />
-
-        {/* Seção de Contato */}
         <ContactSection />
-
-        {/* Rodapé do site */}
         <Footer />
       </main>
+
       <BotaoWhatsapp />
     </>
   );

@@ -8,7 +8,6 @@ import property3 from '/casa3.jpg';
  * Cada card representa uma propriedade com imagem, título, localização, preço e botão de detalhes.
  */
 export default function FeaturedProperties() {
-  // Lista fixa de propriedades com imagem importada individualmente
   const properties = [
     {
       id: 1,
@@ -54,6 +53,7 @@ export default function FeaturedProperties() {
               <img
                 src={prop.image}
                 alt={prop.title}
+                loading="lazy"
                 className="h-48 w-full object-cover rounded-md mb-4"
               />
               <h3 className="text-xl font-semibold text-[#333333] mb-2">
