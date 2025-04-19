@@ -21,7 +21,7 @@ Landing page institucional para a **LarIdeal Imóveis**, desenvolvida com foco e
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [react-responsive-carousel](https://www.npmjs.com/package/react-responsive-carousel)
 
-## 📦 Instalação
+## 📆 Instalação
 
 ```bash
 # Clone o repositório
@@ -37,22 +37,39 @@ $ npm install
 $ npm run dev
 ```
 
-## 📁 Estrutura
+## 📁 Estrutura do Projeto
 
 ```
-src/
-├── assets/
-├── components/
-├── App.jsx
-├── main.jsx
+larideal-imoveis/
+├── node_modules/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── AboutPreview.jsx
+│   │   ├── BotaoWhatsapp.jsx
+│   │   ├── ContactSection.jsx
+│   │   ├── FeaturedProperties.jsx
+│   │   ├── HeroSection.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── TestimonialsPreview.jsx
+│   └── App.jsx
+│   └── main.jsx
+├── index.html
+├── package.json
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
 ```
 
 ## 🔗 Contato
 
-Feito com ❤ por Adriane Oliveira.
+Feito com ❤️ por Adriane Oliveira.
 
+- [LinkedIn](https://linkedin.com/in/adriolivdev)
 - [GitHub](https://github.com/adriolivdev)
 
 ---
 
 > Este projeto é fictício e tem como objetivo compor o portfólio de aplicações para agências e profissionais autônomos.
+
