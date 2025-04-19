@@ -49,9 +49,8 @@ src/
 
 ## 🔗 Contato
 
-Feito com ❤ï¸ø por Adriane Oliveira.
+Feito com ❤ por Adriane Oliveira.
 
-- [LinkedIn](https://linkedin.com/in/adriolivdev)
 - [GitHub](https://github.com/adriolivdev)
 
 ---
