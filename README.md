@@ -25,7 +25,7 @@ Landing page institucional para a **LarIdeal Imóveis**, desenvolvida com foco e
 
 ```bash
 # Clone o repositório
-$ git clone https://github.com/seu-usuario/larideal-landingpage.git
+$ git clone https://github.com/adriolivdev/larideal-imoveis-Landing.git
 
 # Acesse o diretório do projeto
 $ cd larideal-landingpage
