@@ -21,7 +21,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contato" className="py-20 bg-white">
+    <section id="contato" className="py-20 bg-white scroll-mt-40 pb-32">
       <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
 
         {/* Formulário estilizado com introdução e selo */}
@@ -102,8 +102,8 @@ export default function ContactSection() {
           </div>
         </div>
 
-        {/* Carrossel ajustado com altura máxima */}
-        <div className="relative bg-[#F5F5F5] rounded-xl shadow-lg h-full max-h-[500px] overflow-hidden">
+        {/* Carrossel de imagens com seta indicando movimento */}
+        <div className="relative bg-[#F5F5F5] rounded-xl shadow-lg h-full flex flex-col justify-center">
           <Carousel
             autoPlay
             infiniteLoop
@@ -115,13 +115,13 @@ export default function ContactSection() {
             emulateTouch
             className="h-full"
           >
-            <div className="h-[400px] md:h-[500px]">
+            <div className="h-full">
               <img src="/familia-image.jpg" alt="Cliente satisfeito 1" className="w-full h-full object-cover" />
             </div>
-            <div className="h-[400px] md:h-[500px]">
+            <div className="h-full">
               <img src="/familia3.jpg" alt="Cliente satisfeito 2" className="w-full h-full object-cover" />
             </div>
-            <div className="h-[400px] md:h-[500px]">
+            <div className="h-full">
               <img src="/familia4.jpg" alt="Cliente satisfeito 3" className="w-full h-full object-cover" />
             </div>
           </Carousel>

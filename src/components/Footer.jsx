@@ -6,39 +6,39 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
  */
 export default function Footer() {
   return (
-    <footer className="bg-[#333333] text-[#F5F5F5] py-8">
-      <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+    <footer className="bg-[#1A237E] text-[#F5F5F5] py-12 px-4 mt-20">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
 
         {/* Links rápidos */}
         <div>
-          <h3 className="font-bold mb-4">Navegação</h3>
-          <ul className="space-y-2">
-            <li><a href="#home" className="hover:text-[#FFC107]">Home</a></li>
-            <li><a href="#propriedades" className="hover:text-[#FFC107]">Propriedades</a></li>
-            <li><a href="#sobre" className="hover:text-[#FFC107]">Sobre</a></li>
-            <li><a href="#contato" className="hover:text-[#FFC107]">Contato</a></li>
+          <h3 className="font-bold mb-4 text-lg">Navegação</h3>
+          <ul className="space-y-2 text-sm">
+            <li><a href="#home" className="hover:text-[#FFC107] transition">Home</a></li>
+            <li><a href="#propriedades" className="hover:text-[#FFC107] transition">Propriedades</a></li>
+            <li><a href="#sobre" className="hover:text-[#FFC107] transition">Sobre</a></li>
+            <li><a href="#contato" className="hover:text-[#FFC107] transition">Contato</a></li>
           </ul>
         </div>
 
         {/* Contato */}
         <div>
-          <h3 className="font-bold mb-4">Contato</h3>
-          <p className="mb-2">📍 Rua dos Imóveis, 123 - Florianópolis, SC</p>
-          <p className="mb-2">📞 (48) 99999-0000</p>
-          <p>✉️ contato@larideal-imoveis.com.br</p>
+          <h3 className="font-bold mb-4 text-lg">Contato</h3>
+          <p className="mb-2 text-sm">📍 Rua dos Imóveis, 123 - Florianópolis, SC</p>
+          <p className="mb-2 text-sm">📞 (48) 99999-0000</p>
+          <p className="text-sm">✉️ contato@larideal-imoveis.com.br</p>
         </div>
 
         {/* Redes sociais */}
         <div>
-          <h3 className="font-bold mb-4">Siga-nos</h3>
+          <h3 className="font-bold mb-4 text-lg">Siga-nos</h3>
           <div className="flex space-x-4">
-            <a href="https://facebook.com" aria-label="Facebook" className="hover:text-[#FFC107]">
+            <a href="https://facebook.com" aria-label="Facebook" target="_blank" rel="noopener noreferrer" className="hover:text-[#FFC107] transition">
               <FaFacebookF size={20} />
             </a>
-            <a href="https://instagram.com" aria-label="Instagram" className="hover:text-[#FFC107]">
+            <a href="https://instagram.com" aria-label="Instagram" target="_blank" rel="noopener noreferrer" className="hover:text-[#FFC107] transition">
               <FaInstagram size={20} />
             </a>
-            <a href="https://linkedin.com" aria-label="LinkedIn" className="hover:text-[#FFC107]">
+            <a href="https://linkedin.com" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer" className="hover:text-[#FFC107] transition">
               <FaLinkedinIn size={20} />
             </a>
           </div>
@@ -47,7 +47,7 @@ export default function Footer() {
       </div>
 
       {/* Linha de copyright */}
-      <div className="mt-8 text-center text-sm text-gray-400">
+      <div className="mt-10 text-center text-xs text-gray-300">
         &copy; {new Date().getFullYear()} LarIdeal Imóveis. Todos os direitos reservados.
       </div>
     </footer>
