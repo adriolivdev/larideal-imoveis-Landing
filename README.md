@@ -1,12 +1,59 @@
-# React + Vite
+# 🏠 LarIdeal Imóveis - Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing page institucional para a **LarIdeal Imóveis**, desenvolvida com foco em responsividade, performance e boa experiência do usuário.
 
-Currently, two official plugins are available:
+## ✨ Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Hero com chamada para ação
+- Seção "Sobre Nós" com etapas do processo
+- Cards de propriedades em destaque
+- Depoimentos com avaliação em estrelas
+- Formulário de contato responsivo
+- Navegação com scroll suave e destaque de seção ativa
+- Menu mobile com ícone hambúrguer
+- Botão flutuante do WhatsApp com animação
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologias
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS 3.3.2](https://tailwindcss.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [react-responsive-carousel](https://www.npmjs.com/package/react-responsive-carousel)
+
+## 📦 Instalação
+
+```bash
+# Clone o repositório
+$ git clone https://github.com/seu-usuario/larideal-landingpage.git
+
+# Acesse o diretório do projeto
+$ cd larideal-landingpage
+
+# Instale as dependências
+$ npm install
+
+# Inicie o servidor de desenvolvimento
+$ npm run dev
+```
+
+## 📁 Estrutura
+
+```
+src/
+├── assets/
+├── components/
+├── App.jsx
+├── main.jsx
+```
+
+## 🔗 Contato
+
+Feito com ❤ï¸ø por Adriane Oliveira.
+
+- [LinkedIn](https://linkedin.com/in/adriolivdev)
+- [GitHub](https://github.com/adriolivdev)
+
+---
+
+> Este projeto é fictício e tem como objetivo compor o portfólio de aplicações para agências e profissionais autônomos.
