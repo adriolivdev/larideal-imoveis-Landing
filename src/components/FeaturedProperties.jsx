@@ -23,7 +23,7 @@ export default function FeaturedProperties() {
       title: 'Sala Comercial',
       location: 'Joinville, SC',
       price: 5000,
-      link: '#',
+      link: '#'
     },
     {
       id: 3,
